@@ -39,16 +39,16 @@ This model is particularly useful for sports analysts, betting enthusiasts, and 
 ![image](https://github.com/ammaarmelethil/Premier_League_Match_Winners_Prediction/assets/100314064/44d06bf5-8b9a-43bd-abfa-fd5e52b6ee94)
 
 **Feature Importance Ranking:**
-1. Shots taken
+1. Shots taken (Rolling average over last 3 games)
 2. Opposing team
-3. Distance of shot from goal
-4. Shots on target
-5. Goals against
-6. Goals for
+3. Distance of shot from goal (Rolling average over last 3 games)
+4. Shots on target (Rolling average over last 3 games)
+5. Goals against (Rolling average over last 3 games)
+6. Goals for (Rolling average over last 3 games)
 7. Hour of day
 8. Venue (Home/Away)
-9. Free kicks
+9. Free kicks (Rolling average over last 3 games)
 10. Day of week
-11. Penalty kick attempts
-12. Penalty kicks
+11. Penalty kick attempts (Rolling average over last 3 games)
+12. Penalty kicks (Rolling average over last 3 games)
 
